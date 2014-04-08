@@ -24,3 +24,14 @@ Install Node.js:
 Installing Metorite with npm:
 
 * sudo npm install -g meteorite
+
+Install Atmosphere
+------------------
+
+Packages:
+
+* Iron Router
+* 
+
+Integrating with Bootstrap
+--------------------------
