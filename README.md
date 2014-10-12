@@ -1,37 +1,32 @@
-Meteor-Setup
-============
+# Meteor-Setup
 
-Notes on getting started using the Meteor web framework (including Meteorite and Atmosphere).
+Notes on setting up a Meteor development environment.
 
-Install Meteor
---------------
+## Install [Meteor](http://meteor.com)
 
 curl https://install.meteor.com | /bin/sh
 
 This command installs Meteor for you. The default location is ~/.meteor.
 
-Install Meteorite
------------------
+## Adding Packages
 
-Meteorite depends on npm (the Node.js which Meteor also uses (I think)). So if you don't have Node.js (http://nodejs.org) installed, get it first, otherwise skip the next section.
+In general the process for adding Meteor packages is:
 
-Install Node.js:
+## Integrating with [Bootstrap](http://getbootstrap.com)
 
-* Go to http://nodejs.org and click on the Download button to download the installer.
-* Double-click the installer to open it.
-* The default install is for all users in /usr/local/bin.
+## Development Tools
 
-Installing Metorite with npm:
+### Debugging
 
-* sudo npm install -g meteorite
+### Testing Tools
 
-Install Atmosphere
-------------------
+#### [Velocity]()
 
-Packages:
+Velocity is a "meta framework" for testing in Meteor, it is the first thing to
+install, but by itself it doesn't do anything useful.
 
-* Iron Router
-* 
+#### [Chai]()
 
-Integrating with Bootstrap
---------------------------
+#### [Jasmine]()
+
+#### [Mocha]()
