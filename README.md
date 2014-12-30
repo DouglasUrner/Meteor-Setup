@@ -18,9 +18,21 @@ In general the process for adding Meteor packages is:
   - If you already found a package name (in the format username:package), great!
   - If not, you can search for packages at atmospherejs.com
   - You can also search for packages using `meteor search foo`
-2. `meteor install username:packagename`
+2. `meteor add username:packagename`
 
 ## Development Tools
+
+### Editors
+
+[Setting Up Your Text Editor For JavaScript Development](http://benmccormick.org/2014/10/13/setting-up-your-text-editor-for-javascript-development/)
+
+#### Atom
+
+##### Packages
+
+* Language JavaScript Meteor
+* Language Spacebars
+* Editor Config
 
 ### Debugging
 
@@ -53,6 +65,8 @@ The Jasmine source on GitHub is [here](https://github.com/pivotal/jasmine).
 ```
 meteor add sanjo:jasmine
 ```
+
+There is an
 
 ##### [Mocha]()
 
